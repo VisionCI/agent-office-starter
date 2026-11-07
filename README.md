@@ -43,6 +43,10 @@ en/                          fr/
   archive/                     archive/               <- done messages, old states
 ```
 
+## Token economy
+
+An Office that keeps growing gets slow and expensive ("context creep"). [`docs/token-economy.md`](docs/token-economy.md) has 15 testable rules: read only STATE + your rules + the 2 latest messages, cap STATE, auto-archive after 30 days, fresh session per work item, logs over screenshots, scripts over repeated AI work, model routing, budgets and brakes on every loop.
+
 ## The 4 roles
 
 | Role | Job | Usually lives in |

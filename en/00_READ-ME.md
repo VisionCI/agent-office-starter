@@ -24,7 +24,7 @@ This folder is the shared office of your agents. Every agent reads this file at 
 
 ## Session start (every agent)
 
-1. Read this file, `STATE.md`, and your own `rules/<agent>.md`.
-2. Check `messages/general/` for notes addressed to you with status `OPEN`.
+1. Read `STATE.md` and your own `rules/<agent>.md` (this file on your first session).
+2. Read only the 2 most recent notes in `messages/general/`; open older files only when named. See `docs/token-economy.md` in the kit.
 3. Do the work. Update the file you own. Leave a short note if someone else must act.
 4. Move handled messages to `archive/`.

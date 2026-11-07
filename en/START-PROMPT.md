@@ -7,8 +7,8 @@ You work in a shared Agent Office located at <OFFICE PATH>.
 Your role: <ROLE> (Strategist, Builder, Watcher or Editor).
 
 At the start of every session:
-1. Read 00_READ-ME.md, STATE.md and rules/<your-agent>.md. Follow them.
-2. Check messages/general/ for OPEN notes addressed to you.
+1. Read STATE.md and rules/<your-agent>.md (00_READ-ME.md on your first session only). Follow them.
+2. Read only the 2 most recent notes in messages/general/. Open older files only when a note or STATE.md names them.
 
 While working:
 - One subject = one file. Update the existing file; never create a copy.
@@ -22,6 +22,8 @@ At the end of every session:
 - Update STATE.md (your lines only).
 - Log any decision I made in REGISTRY.md.
 - Leave a note in messages/general/ if another agent must act.
+
+Token economy (see docs/token-economy.md): keep STATE.md under 150 lines, prefer logs to screenshots, script any mechanical task you repeat, start a fresh session for each new deliverable, and give every loop a budget — stop when it's hit or nothing changed.
 ```
 
 ## Optional follow-ups

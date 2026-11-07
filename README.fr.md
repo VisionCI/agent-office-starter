@@ -43,6 +43,10 @@ fr/
   archive/               <- messages traités, anciens états
 ```
 
+## Économie de tokens
+
+Un Bureau qui grossit sans fin devient lent et coûteux (« context creep »). [`docs/economie-tokens.md`](docs/economie-tokens.md) donne 15 règles vérifiables : lire seulement ETAT + ses règles + les 2 derniers messages, plafonner ETAT, archiver après 30 jours, une session fraîche par chantier, des journaux plutôt que des captures, des scripts plutôt que du travail refait, le routage de modèle, un budget et des freins pour chaque boucle.
+
 ## Les 4 rôles
 
 | Rôle | Travail | Vit généralement dans |

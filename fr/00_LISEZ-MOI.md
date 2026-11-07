@@ -24,7 +24,7 @@ Ce dossier est le bureau partagé de vos agents. Chaque agent lit ce fichier au 
 
 ## Début de session (chaque agent)
 
-1. Lire ce fichier, `ETAT.md` et son propre `regles/<agent>.md`.
-2. Vérifier `messages/general/` pour les notes qui vous sont adressées avec le statut `OUVERT`.
+1. Lire `ETAT.md` et son propre `regles/<agent>.md` (ce fichier à la première session).
+2. Lire seulement les 2 notes les plus récentes de `messages/general/` ; n'ouvrir un fichier plus ancien que s'il est nommé. Voir `docs/economie-tokens.md` dans le kit.
 3. Faire le travail. Mettre à jour le fichier dont vous êtes responsable. Laisser une note courte si quelqu'un d'autre doit agir.
 4. Déplacer les messages traités dans `archive/`.
